@@ -2,13 +2,9 @@ using Dapper.WebApi.Services;
 using Dapper.WebApi.Services.Queries;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Serilog;
-using Serilog.Context;
-using System.Data.Common;
 
 namespace Dapper.WebApi
 {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dev\\Dapper.WebApi-master\\Dapper.WebApi\\Dapper.WebApi.csproj": {}
+    "D:\\testProjectWebApi\\testProjectWebApi\\Dapper.WebApi\\Dapper.WebApi.csproj": {}
   },
   "projects": {
-    "D:\\Dev\\Dapper.WebApi-master\\Dapper.WebApi\\Dapper.WebApi.csproj": {
+    "D:\\testProjectWebApi\\testProjectWebApi\\Dapper.WebApi\\Dapper.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dev\\Dapper.WebApi-master\\Dapper.WebApi\\Dapper.WebApi.csproj",
+        "projectUniqueName": "D:\\testProjectWebApi\\testProjectWebApi\\Dapper.WebApi\\Dapper.WebApi.csproj",
         "projectName": "Dapper.WebApi",
-        "projectPath": "D:\\Dev\\Dapper.WebApi-master\\Dapper.WebApi\\Dapper.WebApi.csproj",
+        "projectPath": "D:\\testProjectWebApi\\testProjectWebApi\\Dapper.WebApi\\Dapper.WebApi.csproj",
         "packagesPath": "C:\\Users\\Администратор\\.nuget\\packages\\",
-        "outputPath": "D:\\Dev\\Dapper.WebApi-master\\Dapper.WebApi\\obj\\",
+        "outputPath": "D:\\testProjectWebApi\\testProjectWebApi\\Dapper.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
