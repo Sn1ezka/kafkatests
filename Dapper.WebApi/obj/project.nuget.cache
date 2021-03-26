@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "kjju/tISYHlH7E4+R+QPuECapVSLkwhjtFcmBXvMpQAkRKvIiRxn+8OU0yOFikZFx+zqo5KkjRNadRfHUTDplw==",
+  "dgSpecHash": "3lWxr1gdry5e3qtXsLUh3c6DOQN/jblQBDTp3xACL3o1iD/Ab8T1caSIY7xM+jdkGBXhDWWdHNcb+ws5JC7BOA==",
   "success": true,
   "projectFilePath": "D:\\testProjectWebApi\\testProjectWebApi\\Dapper.WebApi\\Dapper.WebApi.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Администратор\\.nuget\\packages\\dapper\\2.0.30\\dapper.2.0.30.nupkg.sha512",
+    "C:\\Users\\Администратор\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
     "C:\\Users\\Администратор\\.nuget\\packages\\elasticsearch.net\\7.8.1\\elasticsearch.net.7.8.1.nupkg.sha512",
     "C:\\Users\\Администратор\\.nuget\\packages\\microsoft.aspnetcore.authorization\\1.0.2\\microsoft.aspnetcore.authorization.1.0.2.nupkg.sha512",
     "C:\\Users\\Администратор\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.abstractions.2.2.0.nupkg.sha512",
@@ -159,7 +159,7 @@
     "C:\\Users\\Администратор\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
     "C:\\Users\\Администратор\\.nuget\\packages\\system.reflection.emit\\4.3.0\\system.reflection.emit.4.3.0.nupkg.sha512",
     "C:\\Users\\Администратор\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.3.0\\system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
-    "C:\\Users\\Администратор\\.nuget\\packages\\system.reflection.emit.lightweight\\4.6.0\\system.reflection.emit.lightweight.4.6.0.nupkg.sha512",
+    "C:\\Users\\Администратор\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
     "C:\\Users\\Администратор\\.nuget\\packages\\system.reflection.extensions\\4.3.0\\system.reflection.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\Администратор\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
     "C:\\Users\\Администратор\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
