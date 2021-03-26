@@ -28,11 +28,11 @@ namespace Dapper.WebApi.Controllers
         public async Task<ActionResult> AddProduct(Product entity)
         {
             await _productRepository.AddProduct(entity);
-            return Ok(entity.Request_id);
+            return Ok(entity.RequestId);
         }
 
         [HttpPost]
-        [Route("/roa/request_id")]//roa =receipt of application
+        [Route("/roa/requestId")]//roa =receipt of application
         public async Task<ActionResult> GetById(Product entity)
         {
             await _productRepository.GetById(entity);
@@ -41,7 +41,7 @@ namespace Dapper.WebApi.Controllers
         }
 
         [HttpPost] 
-        [Route("/roa/client_id_department_address")]//roa =receipt of application var 2
+        [Route("/roa/clientIdDepartmentAddress")]//roa =receipt of application var 2
         public async Task<ActionResult<Product>> GetByIdAddress(Product entity)
         {
             var products = await _productRepository.GetByIdAddress(entity);

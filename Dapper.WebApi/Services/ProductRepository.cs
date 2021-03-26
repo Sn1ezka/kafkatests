@@ -32,7 +32,7 @@ namespace Dapper.WebApi.Services
         {
             await WithConnection(async conn =>
             {
-                var query = await conn.QueryFirstOrDefaultAsync<Product>(_commandText.GetProductById, new { Request_id = entity.Request_id });
+                var query = await conn.QueryFirstOrDefaultAsync<Product>(_commandText.GetProductById, new { RequestId = entity.RequestId });
                 if (query != null)
                 {
                     await Task.Run(() => entity.Amount = query.Amount);
@@ -52,7 +52,7 @@ namespace Dapper.WebApi.Services
         {
             return await WithConnection(async conn =>
             {
-                var query = await conn.QueryAsync<Product>(_commandText.GetProductByIdAddress, new { Client_id = entity.Client_id, Department_address = entity.Department_address });
+                var query = await conn.QueryAsync<Product>(_commandText.GetProductByIdAddress, new { ClientId = entity.ClientId, DepartmentAddress = entity.DepartmentAddress });
                 return query;
             });
 
@@ -64,8 +64,8 @@ namespace Dapper.WebApi.Services
             await WithConnection(async conn =>
             {
                 int? userId = conn.Query<int>(_commandText.AddProduct, 
-                    new { Client_id = entity.Client_id, Department_address = entity.Department_address, Amount = entity.Amount, Currency = entity.Currency }).FirstOrDefault();
-                await Task.Run(() => entity.Request_id = userId.Value);
+                    new { ClientId = entity.ClientId, DepartmentAddress = entity.DepartmentAddress, Amount = entity.Amount, Currency = entity.Currency }).FirstOrDefault();
+                await Task.Run(() => entity.RequestId = userId.Value);
             });
         }
     }
